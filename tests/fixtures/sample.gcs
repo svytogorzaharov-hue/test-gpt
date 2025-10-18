@@ -1,0 +1,26 @@
+{
+  "version": 5,
+  "profile": { "name": "Sample Hero" },
+  "attributes": [
+    { "attr_id": "st", "calc": { "value": 11 } },
+    { "attr_id": "dx", "calc": { "value": 12 } },
+    { "attr_id": "iq", "calc": { "value": 10 } },
+    { "attr_id": "ht", "calc": { "value": 11 } },
+    { "attr_id": "hp", "calc": { "value": 12 } },
+    { "attr_id": "fp", "calc": { "value": 11 } },
+    { "attr_id": "will", "calc": { "value": 10 } },
+    { "attr_id": "per", "calc": { "value": 10 } },
+    { "attr_id": "basic_move", "calc": { "value": 6 } }
+  ],
+  "calc": {
+    "move": [6, 5, 4],
+    "dodge": [9, 8, 7]
+  },
+  "equipment": [
+    {
+      "name": "Broadsword",
+      "usage": "melee",
+      "damage": "1d+2 cut"
+    }
+  ]
+}
